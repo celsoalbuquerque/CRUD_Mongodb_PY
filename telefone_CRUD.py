@@ -2,7 +2,7 @@
 from pymongo import MongoClient
 
 #Fazendo a conexão com o mongo
-connection_String = "mongodb+srv://celsiuss01:P3!xinh0@celsiuss01.aekfhde.mongodb.net/"
+connection_String = "mongodb+srv://celsiuss01:<password@>@celsiuss01.aekfhde.mongodb.net/"
 client = MongoClient(connection_String)
 
 #Fazendo a conexão com meu BANCO
